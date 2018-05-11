@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#077FE9",
+    "navigationBarTitleText": "今日热榜",
+    "navigationBarTextStyle": "white"
+  },"tabBar": {
+    "color": "#999",
+    "selectedColor": "#077FE9",
+    "backgroundColor": "#f7f7f7",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "热榜",
+        "iconPath": "images/hot.png",
+        "selectedIconPath": "images/hot_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "个人中心",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_selected.png"
+      }
+    ]
+  }
+}
